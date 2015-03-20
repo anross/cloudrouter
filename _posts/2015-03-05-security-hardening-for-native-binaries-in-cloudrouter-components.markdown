@@ -35,6 +35,6 @@ Read-only relocations: yes
 Immediate binding: yes
 </pre>
 
-While the hardened_build macro makes hardening simple for RPM builds, it does not help people who are building BIRD manually. To address this, a CloudRouter developer has <a href="%20http://bird.network.cz/pipermail/bird-users/2015-February/009535.html">proposed a patch upstream </a>that enables hardening compiler and linker flags automatically:
+While the hardened_build macro makes hardening simple for RPM builds, it does not help people who are building BIRD manually. To address this, a CloudRouter developer has <a href="http://bird.network.cz/pipermail/bird-users/2015-February/009535.html">proposed a patch upstream</a> that enables hardening compiler and linker flags automatically:
 
 &#8220;Default to secure&#8221; is an important principle for CloudRouter development. We integrate this idea into all versions of CloudRouter. Whether you&#8217;ve standardized on a Fedora disk image for flexibility, a Docker image for scalable deployment, or an OSv image for performance, you can be confident that the project team has made security a top priority. As CloudRouter continues to mature and incorporates more components built and packaged by the CloudRouter project, we will ensure that all appropriate security hardening mechanisms are enabled for these components.

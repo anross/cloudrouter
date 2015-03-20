@@ -7,6 +7,7 @@ layout: page
         <div class="blog-box">
             <div class="blog-post single-post">
                 <div class="blog-content">
+                    {% assign post = page %}
                     {% include post_title.html %}
                     <div class="main-blog">
                         {{ content }}
