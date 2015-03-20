@@ -20,15 +20,15 @@ Two CloudRouter 1.0 Beta images are available: minimal and full. The minimal ima
         </tr>
         <tr>
             <td>Minimal</td>
-            <td><a href="https://cloudrouter.org/repo/beta/images/CloudRouter-Beta-Minimal-20150224.x86_64.raw.xz">Download</a> 399 MB</td>
-            <td><a href="https://cloudrouter.org/repo/beta/images/CloudRouter-Beta-Minimal-20150224.checksum.txt">Download</a></td>
-            <td><a href="https://cloudrouter.org/repo/beta/images/CloudRouter-Beta-Minimal-20150224.manifest.txt">Download</a> 6 KB</td>
+            <td><a href="{{ site.baseurl }}/repo/beta/images/CloudRouter-Beta-Minimal-20150224.x86_64.raw.xz">Download</a> 399 MB</td>
+            <td><a href="{{ site.baseurl }}/repo/beta/images/CloudRouter-Beta-Minimal-20150224.checksum.txt">Download</a></td>
+            <td><a href="{{ site.baseurl }}/repo/beta/images/CloudRouter-Beta-Minimal-20150224.manifest.txt">Download</a> 6 KB</td>
         </tr>
         <tr>
         <td>Full</td>
-            <td><a href="https://cloudrouter.org/repo/beta/images/CloudRouter-Beta-Full-20150224.x86_64.raw.xz">Download</a> 883 MB</td>
-            <td><a href="https://cloudrouter.org/repo/beta/images/CloudRouter-Beta-Full-20150224.checksum.txt">Download</a></td>
-            <td><a href="https://cloudrouter.org/repo/beta/images/CloudRouter-Beta-Full-20150224.manifest.txt">Download</a> 11 KB</td>
+            <td><a href="{{ site.baseurl }}/repo/beta/images/CloudRouter-Beta-Full-20150224.x86_64.raw.xz">Download</a> 883 MB</td>
+            <td><a href="{{ site.baseurl }}/repo/beta/images/CloudRouter-Beta-Full-20150224.checksum.txt">Download</a></td>
+            <td><a href="{{ site.baseurl }}/repo/beta/images/CloudRouter-Beta-Full-20150224.manifest.txt">Download</a> 11 KB</td>
         </tr>
     </tbody>
 </table>
