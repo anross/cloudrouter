@@ -17,7 +17,7 @@ Compute resources are rapidly migrating from physical infrastructure to a combin
  infrastructure. It includes the features of traditional hardware routers, as well as support
  for emerging technologies such as containers and software-defined interconnection.
  CloudRouter aims to facilitate migration to the cloud without giving up control over network
- routing and governance.</p>
+ routing and governance.
 
 **Key features**
 
