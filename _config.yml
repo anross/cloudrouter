@@ -10,3 +10,7 @@ baseurl: "/cloudrouter" # the subpath of your site, e.g. /blog/
 
 # Build settings
 markdown: kramdown
+
+collections:
+  security_advisories:
+    output: false
