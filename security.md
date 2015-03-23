@@ -32,7 +32,7 @@ Anyone can post to this list. The subscribers are only trusted individuals who w
 ## <span id="Security_advisories" class="mw-headline">Security advisories</span>
 
 {% for advisory in site.security_advisories reversed %}
-### {{ advisory.url | split:"/" | last | remove: ".yaml" }}{% for vulnerability in advisory.vulnerabilities %} [{{ vulnerability.impact-assessment.rating | capitalize }}] {{ vulnerability.cve-id }}{% endfor %}: {{ advisory.title }}
+### {{ advisory.url | split:"/" | last | remove: ".yaml" | remove: ".html" | remove: ".md" | remove: ".markdown" }}{% for vulnerability in advisory.vulnerabilities %} [{{ vulnerability.impact-assessment.rating | capitalize }}] {{ vulnerability.cve-id }}{% endfor %}: {{ advisory.title }}
 
 #### Description
 {{ advisory.description }}
